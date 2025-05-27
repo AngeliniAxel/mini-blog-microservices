@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { randomBytes } = require('crypto');
-const cors = require('child_process');
+const cors = require('cors');
 
 const app = express();
 app.use(bodyParser.json());
